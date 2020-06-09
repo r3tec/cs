@@ -5,17 +5,7 @@ export class Sudoku extends Component {
 
     constructor(props) {
         super(props);
-        this.state = { cells: [], loading: true };
-    }
-
-    componentDidMount() {
-        this.populateCells();
-    }
-
-    incrementCounter() {
-        this.setState({
-            currentCount: this.state.currentCount + 1
-        });
+        this.state = { cells: this.populateCells(), loading: true };
     }
 
     static renderRow(rowIndex, cells) {
@@ -27,7 +17,6 @@ export class Sudoku extends Component {
     }
 
     static renderRows(cells) {
-        console.log(cells)
         const dim = Math.sqrt(cells.length);
         const rows = [];
         for (var i = 0; i < dim; i++)
@@ -45,17 +34,15 @@ export class Sudoku extends Component {
     }
 
     render() {
-        return this.state.loading
-            ? <h1>Loading...</h1>
-            : Sudoku.renderRows(this.state.cells);
+        return Sudoku.renderRows(this.state.cells);
     }
 
-    async populateCells() {
+    populateCells() {
         const dim = 9;
         const result = [];
         for (var i = 0; i < dim * dim; i++)
             result.push({ index: i, value: Math.floor(Math.random() * Math.floor(dim)) });
-        setTimeout(() => this.setState({ cells: result, loading: false }), 2000);
+        return result;
     }
 
 }
