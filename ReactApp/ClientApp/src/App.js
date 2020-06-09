@@ -4,6 +4,7 @@ import { Layout } from './components/Layout';
 import { Home } from './components/Home';
 import { FetchData } from './components/FetchData';
 import { Counter } from './components/Counter';
+import { Sudoku } from './components/Sudoku';
 
 import './custom.css'
 
@@ -15,6 +16,7 @@ export default class App extends Component {
       <Layout>
         <Route exact path='/' component={Home} />
         <Route path='/counter' component={Counter} />
+        <Route path='/sudoku' component={Sudoku} />
         <Route path='/fetch-data' component={FetchData} />
       </Layout>
     );
