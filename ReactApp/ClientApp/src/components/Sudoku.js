@@ -8,33 +8,16 @@ export class Sudoku extends Component {
         this.state = { cells: this.populateCells(), loading: true };
     }
 
-    static renderRow(rowIndex, cells) {
-        return (
-            <tr key={rowIndex}>
-                {cells.map((cell) => <td key={cell.index}>{cell.value}</td>)}
-            </tr>
-        );
-    }
-
-    static renderRows(cells) {
-        const dim = Math.sqrt(cells.length);
-        const rows = [];
-        for (var i = 0; i < dim; i++)
-            rows.push(i);
-
+    render() {
         return (
             <table className='table table-striped' aria-labelledby="tabelLabel">
                 <tbody>
-                    {rows.map(r =>
-                        Sudoku.renderRow(r, cells.slice(r * dim, (r + 1) * dim))
+                    {this.state.cells.map(cell =>
+                        <tr>{cell.value}</tr>
                     )}
                 </tbody>
             </table>
         );
-    }
-
-    render() {
-        return Sudoku.renderRows(this.state.cells);
     }
 
     populateCells() {
