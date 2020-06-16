@@ -27,7 +27,6 @@ export class Sudoku extends Component {
     }
 
     static renderRows(cells) {
-        console.log(cells)
         const dim = Math.sqrt(cells.length);
         const rows = [];
         for (var i = 0; i < dim; i++)
