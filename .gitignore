@@ -5,3 +5,6 @@
 /PrimeNumbers/.vs/PrimeNumbers
 /PrimeNumbers/bin/Debug/netcoreapp3.1
 /PrimeNumbers/obj
+/PrimeNumbers/PrimeNumbers/bin/Debug/netcoreapp3.1
+/PrimeNumbers/PrimeNumbers/obj/Debug/netcoreapp3.1
+/PrimeNumbers/PrimeNumbers/obj
