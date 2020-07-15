@@ -1,5 +1,6 @@
 # R3 Technologies computer school
-This repository is maintained by R3tec computer school. The school is targeting self learners who want to advance their professional level through participation in open source projects.
+This repository is maintained by R3tec computer school. The school is targeting self learners who want to advance their professional level through participation in open source projects. Our introductory course is free.
+
 We are currently working on a small web project with React front end and C# backend. You can find the current state of the project in master-react branch. The project is open for contributors, but if you want to participate in our learning sessions or have discussion about implementation you will need to join our school.
 
 To join please contact alex@r3-tec.com. 
