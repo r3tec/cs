@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "dgSpecHash": "eLSdnfy7DlKsqdL4dxgMWq1g3rZP58wbbiBot4uXiCk4MFncHcxfmM9MJk/Gw6tHMes1/2s/LE9cvh3umEiwmQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\DIMA\\Source\\Repos\\cs\\ReactApp\\ReactApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\DIMA\\.nuget\\packages\\microsoft.aspnetcore.nodeservices\\3.1.4\\microsoft.aspnetcore.nodeservices.3.1.4.nupkg.sha512",
+    "C:\\Users\\DIMA\\.nuget\\packages\\microsoft.aspnetcore.spaservices\\3.1.4\\microsoft.aspnetcore.spaservices.3.1.4.nupkg.sha512",
+    "C:\\Users\\DIMA\\.nuget\\packages\\microsoft.aspnetcore.spaservices.extensions\\3.1.4\\microsoft.aspnetcore.spaservices.extensions.3.1.4.nupkg.sha512",
+    "C:\\Users\\DIMA\\.nuget\\packages\\microsoft.extensions.configuration\\3.1.4\\microsoft.extensions.configuration.3.1.4.nupkg.sha512",
+    "C:\\Users\\DIMA\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\3.1.4\\microsoft.extensions.configuration.abstractions.3.1.4.nupkg.sha512",
+    "C:\\Users\\DIMA\\.nuget\\packages\\microsoft.extensions.configuration.binder\\3.1.4\\microsoft.extensions.configuration.binder.3.1.4.nupkg.sha512",
+    "C:\\Users\\DIMA\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\3.1.4\\microsoft.extensions.dependencyinjection.3.1.4.nupkg.sha512",
+    "C:\\Users\\DIMA\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.4\\microsoft.extensions.dependencyinjection.abstractions.3.1.4.nupkg.sha512",
+    "C:\\Users\\DIMA\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\3.1.4\\microsoft.extensions.fileproviders.abstractions.3.1.4.nupkg.sha512",
+    "C:\\Users\\DIMA\\.nuget\\packages\\microsoft.extensions.fileproviders.physical\\3.1.4\\microsoft.extensions.fileproviders.physical.3.1.4.nupkg.sha512",
+    "C:\\Users\\DIMA\\.nuget\\packages\\microsoft.extensions.filesystemglobbing\\3.1.4\\microsoft.extensions.filesystemglobbing.3.1.4.nupkg.sha512",
+    "C:\\Users\\DIMA\\.nuget\\packages\\microsoft.extensions.logging\\3.1.4\\microsoft.extensions.logging.3.1.4.nupkg.sha512",
+    "C:\\Users\\DIMA\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.1.4\\microsoft.extensions.logging.abstractions.3.1.4.nupkg.sha512",
+    "C:\\Users\\DIMA\\.nuget\\packages\\microsoft.extensions.logging.configuration\\3.1.4\\microsoft.extensions.logging.configuration.3.1.4.nupkg.sha512",
+    "C:\\Users\\DIMA\\.nuget\\packages\\microsoft.extensions.logging.console\\3.1.4\\microsoft.extensions.logging.console.3.1.4.nupkg.sha512",
+    "C:\\Users\\DIMA\\.nuget\\packages\\microsoft.extensions.options\\3.1.4\\microsoft.extensions.options.3.1.4.nupkg.sha512",
+    "C:\\Users\\DIMA\\.nuget\\packages\\microsoft.extensions.options.configurationextensions\\3.1.4\\microsoft.extensions.options.configurationextensions.3.1.4.nupkg.sha512",
+    "C:\\Users\\DIMA\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.4\\microsoft.extensions.primitives.3.1.4.nupkg.sha512",
+    "C:\\Users\\DIMA\\.nuget\\packages\\newtonsoft.json\\12.0.2\\newtonsoft.json.12.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}
