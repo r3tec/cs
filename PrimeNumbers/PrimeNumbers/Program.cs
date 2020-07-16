@@ -17,10 +17,14 @@ namespace PrimeNumbers
             else Console.WriteLine("It is not Prime!!");
         }
 
-        private static bool IsPrime(int numberToTest)
+        private static bool IsPrime(int num)
         {
-            throw new NotImplementedException();
-            // Remove first line and put your code here
+            for (let factor = 2; factor < num; factor ++){
+                if (num % factor == 0) {
+                   return false;
+                   return true;
+                }
+            }
         }
     }
 }
