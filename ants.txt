@@ -1,2 +1,2 @@
 The ants go marching one by one, hurrah, hurrah
-The ants go marching one by one, hurrah, hurrah
+Print ("Hello, world!")
